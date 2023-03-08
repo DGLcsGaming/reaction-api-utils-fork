@@ -116,7 +116,7 @@
   "homepage": "https://github.com/reactioncommerce/reaction",
   "license": "Apache-2.0",
   "main": "index.js",
-  "name": "@reactioncommerce/api-utils",
+  "name": "@dglcsgaming/reaction-api-utils-fork",
   "publishConfig": {
     "access": "public"
   },
