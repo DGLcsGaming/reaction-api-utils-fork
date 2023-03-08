@@ -1,0 +1,138 @@
+{
+  "_from": "@reactioncommerce/api-utils@1.17.1",
+  "_id": "@reactioncommerce/api-utils@1.17.1",
+  "_inBundle": false,
+  "_integrity": "sha512-TkrTEZznMC9wyk0HzX9DC50LjVLbWEzFmILcOVInZsurmwXMofmPeyMirnQjKsAL4ZlKkVgKrBXFwhlkW0ktaQ==",
+  "_location": "/@reactioncommerce/api-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@reactioncommerce/api-utils@1.17.1",
+    "name": "@reactioncommerce/api-utils",
+    "escapedName": "@reactioncommerce%2fapi-utils",
+    "scope": "@reactioncommerce",
+    "rawSpec": "1.17.1",
+    "saveSpec": null,
+    "fetchSpec": "1.17.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/@reactioncommerce/api-core",
+    "/@reactioncommerce/api-plugin-accounts",
+    "/@reactioncommerce/api-plugin-address-validation",
+    "/@reactioncommerce/api-plugin-address-validation-test",
+    "/@reactioncommerce/api-plugin-authentication",
+    "/@reactioncommerce/api-plugin-authorization-simple",
+    "/@reactioncommerce/api-plugin-carts",
+    "/@reactioncommerce/api-plugin-catalogs",
+    "/@reactioncommerce/api-plugin-discounts",
+    "/@reactioncommerce/api-plugin-discounts-codes",
+    "/@reactioncommerce/api-plugin-email",
+    "/@reactioncommerce/api-plugin-email-smtp",
+    "/@reactioncommerce/api-plugin-email-templates",
+    "/@reactioncommerce/api-plugin-files",
+    "/@reactioncommerce/api-plugin-i18n",
+    "/@reactioncommerce/api-plugin-inventory",
+    "/@reactioncommerce/api-plugin-inventory-simple",
+    "/@reactioncommerce/api-plugin-job-queue",
+    "/@reactioncommerce/api-plugin-navigation",
+    "/@reactioncommerce/api-plugin-notifications",
+    "/@reactioncommerce/api-plugin-orders",
+    "/@reactioncommerce/api-plugin-payments",
+    "/@reactioncommerce/api-plugin-payments-example",
+    "/@reactioncommerce/api-plugin-payments-stripe-sca",
+    "/@reactioncommerce/api-plugin-pricing-simple",
+    "/@reactioncommerce/api-plugin-products",
+    "/@reactioncommerce/api-plugin-settings",
+    "/@reactioncommerce/api-plugin-shipments",
+    "/@reactioncommerce/api-plugin-shipments-flat-rate",
+    "/@reactioncommerce/api-plugin-shops",
+    "/@reactioncommerce/api-plugin-simple-schema",
+    "/@reactioncommerce/api-plugin-sitemap-generator",
+    "/@reactioncommerce/api-plugin-surcharges",
+    "/@reactioncommerce/api-plugin-system-information",
+    "/@reactioncommerce/api-plugin-tags",
+    "/@reactioncommerce/api-plugin-taxes",
+    "/@reactioncommerce/api-plugin-taxes-flat-rate",
+    "/@reactioncommerce/api-plugin-translations"
+  ],
+  "_resolved": "https://registry.npmjs.org/@reactioncommerce/api-utils/-/api-utils-1.17.1.tgz",
+  "_shasum": "6d02543611635d526d47338eb0b73a3a46a0a160",
+  "_spec": "@reactioncommerce/api-utils@1.17.1",
+  "_where": "/home/dglcsgaming/reaction-test/omranapi",
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@jest/globals": "^26.6.2",
+    "@reactioncommerce/logger": "^1.1.3",
+    "@reactioncommerce/random": "^1.0.2",
+    "@reactioncommerce/reaction-error": "^1.0.1",
+    "accounting-js": "^1.1.1",
+    "callsite": "^1.0.0",
+    "envalid": "^6.0.2",
+    "graphql-fields": "^2.0.3",
+    "graphql-relay": "^0.9.0",
+    "lodash": "^4.17.15",
+    "ramda": "^0.28.0",
+    "transliteration": "^2.1.9"
+  },
+  "deprecated": false,
+  "description": "Utility functions for the Reaction API",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@reactioncommerce/babel-remove-es-create-require": "^1.0.0",
+    "babel-plugin-rewire-exports": "^2.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-import-meta": "^1.0.1",
+    "graphql": "^15.0.0"
+  },
+  "email": "engineering@reactioncommerce.com",
+  "engines": {
+    "node": ">=14.18.1"
+  },
+  "exports": {
+    "./": {
+      "require": "./",
+      "default": "./lib/"
+    },
+    "./graphql/": {
+      "require": "./",
+      "default": "./lib/graphql/"
+    },
+    "./tests/": {
+      "require": "./",
+      "default": "./lib/tests/"
+    }
+  },
+  "homepage": "https://github.com/reactioncommerce/reaction",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "@reactioncommerce/api-utils",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/reaction.git",
+    "directory": "packages/api-utils"
+  },
+  "scripts": {
+    "lint:fix": "eslint . --fix",
+    "test": "jest",
+    "test:file": "jest --no-cache --watch --coverage=false",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "url": "https://github.com/reactioncommerce/reaction",
+  "version": "1.17.1"
+}
